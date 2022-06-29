@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Alacszim</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    </head>
+    <body>
+        <!-- Nav Bar -->
+        <ul> 	
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about-me">ABOUT</a></li>
+            <li><a href="#work-section">WORK</a></li>
+            <li><a href="#socials">SOCIALS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+
+		<!-- Pfp -->
+		<div id="pfp">
+		</div>
+		
+		<!-- Title -->
+		<div id="title-section">
+			<h3>
+				Full-Stack Web Dev | Python Programmer | Roblox Dev
+				<py-script>
+import datetime as dt
+print(f"{dt.date.today().strftime('%A %B %d, %Y')}")
+				</py-script>
+			</h3>
+		</div>
+		
+		<!-- Info Boxes -->
+        <div class="box">
+            <h2 id="about-me">
+				About Me.
+			</h2>
+            <h3>
+				Hey! I'm a full-stack web developer working with several services, a Python programmer doing game development, back-end, and Discord bots! I'm also a Roblox developer working with several people / studios as a builder / 3D modeler.
+			</h3>
+        </div>
+
+		<div class="box">
+			<h2 id="socials">
+				Socials.
+			</h2>
+			<h3>
+				My socials include:<br>
+				<a href="https://twitter.com/alacszim"><u>Twitter</u></a> <br>
+				Discord: Alacszim#5862 <br>
+				<a href="https://www.youtube.com/channel/UCPbyWjD5OlllyGEt8AAxwjw"><u>Youtube</u></a ><br>
+				<a href="https://twitch.tv/alacszim_"><u>Twitch</u></a>
+			</h3>
+		</div>
+
+		<div class="box">
+			<h2 id="contact">
+				Contact.
+			</h2>
+			<h3>
+				My perferred types of contact is through: <br>
+				Discord <br>
+				& <br>
+				Twitter
+			</h3>
+		</div>
+		
+		<!-- Footer -->
+		<div id="footer">
+			<hr>
+			<h4>
+				All Assets Created By Alacszim <br>
+				HTML/CSS/JS/PY/LUAU
+			</h4>
+		</div>
+</html>
